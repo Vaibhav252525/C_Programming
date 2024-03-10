@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	float a, b, add,mul,div,sub;
+	float a, b, add,mul,div,sub,mod;
 	printf("Enter the Number of a:");
 	scanf("%f", &a);
 	printf("Enter the Number of b:");
@@ -10,6 +10,5 @@ void main()
 	mul = a * b;
 	div = a / b;
 	sub = a - b;
-	printf(" addition =%f\n multiplication =%f \n division =%f \n substraction =%f \n", add, mul, div, sub);
-
+	printf("addition =%f\n multiplication =%f \n division =%f \n substraction =%f \n", add, mul, div, sub);
 }

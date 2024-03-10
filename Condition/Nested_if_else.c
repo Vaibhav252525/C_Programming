@@ -20,6 +20,6 @@ void main()
         }
     }
      else{
-            printf("Interest rate 9.50 credited");
+            printf("Interest rate 8.50 credited");
         }
 }
