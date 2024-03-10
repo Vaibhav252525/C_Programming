@@ -9,5 +9,5 @@ void main()
     temp=a;
     a=b;
     b=temp;
-    printf("Value after swaping a andb:%d %d",a,b);
+    printf("Value after swaping a and b:%d\n%d\n",a,b);
 }

@@ -1,16 +1,23 @@
-#include <stdio.h>
-void main()
-{
-    // printf("%c%d",(char)(int,a));
-    int no;
-    printf("enter the number");
-    scanf("%d,&no");
-    if (no >= 48 && no <= 57)
-    {
-        printf("the entered number is digit");
-    }
-    else
-    {
-        printf("other number");
-    }
-}
+// #include <stdio.h>
+// int main() {  
+//     char c;
+//     printf("Enter a character: ");
+//     scanf("%c", &c);  
+    
+//     // %d displays the integer value of a character
+//     // %c displays the actual character
+//     printf("ASCII value of %c = %d", c,c);
+//     return 0;
+// }
+
+#include <stdio.h>  
+int main()  
+{     
+    int caps;  
+ 
+    for ( caps = 65; caps < 91; caps++)  
+    {  
+        printf (" \n The ASCII value of %c is %d ", caps, caps);  
+    }  
+    return 0;  
+}  
